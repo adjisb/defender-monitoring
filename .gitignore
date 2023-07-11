@@ -1,0 +1,35 @@
+# package directories
+node_modules
+lib
+
+# hardhat
+artifacts
+cache
+typechain
+typechain-types
+
+#defender
+.defender
+.serverless
+.secrets
+
+# coverage directory used by tools like istanbul
+coverage
+coverage.json
+coverageEnv
+
+# Other
+.env
+*.log
+.DS_Store
+tsconfig.tsbuildinfo
+
+# Build artifacts
+**/.openzeppelin/
+types/**
+dist/
+abi/@openzeppelin
+defender/autotasks/compile
+
+# editors
+.idea

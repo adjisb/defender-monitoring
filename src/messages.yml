@@ -1,0 +1,55 @@
+info-message: |
+  :tinfoil_hat: {{ sentinel.name }} :tinfoil_hat:
+
+    {{ matchReasonsFormatted }}
+
+  [Block Explorer]({{ transaction.link }})
+
+liquidity-message: |
+  :warning: {{ sentinel.name }} :warning:
+
+    {{ metadata.title }}
+    {{ metadata.description }}
+    Liquidity: {{ metadata.liquidity }}
+
+  [Block Explorer]({{ transaction.link }})
+
+nft-invariant-message: |
+  :warning:  {{ sentinel.name }} :warning:
+  {{ metadata.description }}
+  Token ID: {{ metadata.tokenId }}
+  [Block Explorer]({{ transaction.link }})
+
+sand-invariant-message: |
+  :warning:  {{ sentinel.name }} :warning:
+  {{ metadata.title }}
+  {{ metadata.description }}
+  [Block Explorer]({{ transaction.link }})
+
+forta-attack-message: |
+  :warning:  {{ sentinel.name }} :warning:
+
+    {{ matchReasonsFormatted }}
+
+  [Block Explorer]({{ transaction.link }})
+
+forta-flashloan-message: |
+  :warning:  {{ sentinel.name }} :warning:
+
+    {{ matchReasonsFormatted }}
+
+  [Block Explorer]({{ transaction.link }})
+
+account-message: |
+  :tinfoil_hat: {{ sentinel.name }} :tinfoil_hat:
+
+  Account: {{ transaction.from }}
+
+  [Block Explorer]({{ transaction.link }})
+
+low-on-gas-message: |
+  :warning: {{ sentinel.name }} :warning:
+
+  Account: {{ metadata.address }}
+
+  [Block Explorer]({{ transaction.link }})
